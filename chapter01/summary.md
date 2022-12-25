@@ -11,5 +11,4 @@
 	### Summary 1.3
 	- 
 
-## Summary
-- Creating my first rust program!
+
