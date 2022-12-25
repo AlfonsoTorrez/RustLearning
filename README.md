@@ -1,16 +1,24 @@
-# RustLearning
+# Rust Learning
 - Learning rust through the rust book. 
 
 ## Naming Convention
-- Directory (Folders) 
+- Directory (Folders)
+	- ex: chapter[#]
+ 
 ## Additional Information
-- Each rust[#] directory has a 'summary.md' file to keep track of my 
+- Each chapter[#] directory has a 'summary.md' file to keep track of my 
 daily learning. 
 - 'summary.md' format below
-	- # Rust - Daily Subject/s
+	# Rust - [#]. Chapter Name
 
-	  ## Objective        
-	  - List of things I will be learning. 
+	## Sections
+	- 1.1 Installation
+		### Summary 1.1
+		- 
+	- 1.2 Hello, World!
+		### Summary 1.2
+		-	 
+	- 1.3 Hello, Cargo!
+		### Summary 1.3
+		- 
 
-	  ## Summary 
-	  - What I ended up learning.
