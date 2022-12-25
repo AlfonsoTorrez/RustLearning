@@ -1,4 +1,4 @@
-# RustLearning
+# Rust Learning
 - Learning rust through the rust book. 
 
 ## Naming Convention
