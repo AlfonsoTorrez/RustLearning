@@ -3,7 +3,7 @@
 ### Sections
 - [3.1 Variables and Mutability](https://rust-book.cs.brown.edu/ch03-01-variables-and-mutability.html)
 	#### Summary 3.1
-	- 
+	- Went over variables and the types. 
 
 
 
