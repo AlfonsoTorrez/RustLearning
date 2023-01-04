@@ -26,3 +26,32 @@ fn main() {
   println!("{TWO}");
 }
 ```
+
+6. Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed. If the program does not pass, indicate the last line number involved in the compiler error.
+
+```
+fn main() {
+
+  let mut x: u32 = 1;
+
+  {
+    let mut x = x;
+    x += 2;
+  }
+
+  println!("{x}");
+
+}
+```
+
+7. Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed. If the program does not pass, indicate the last line number involved in the compiler error.
+
+```
+fn main() {
+
+  let mut x: u32 = 1;
+  x = "Hello world";
+  println("{x}");
+
+}
+```
