@@ -8,6 +8,11 @@
 	- variables
 	- constants
 	- shadowing
+- [3.2 Data Types](https://rust-book.cs.brown.edu/ch03-02-data-types.html)
+	#### Summary 3.2
+	- 
+	#### Projects 3.2
+	- 
 
 
 
