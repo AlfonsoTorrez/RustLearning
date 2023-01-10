@@ -13,6 +13,17 @@
 	- 
 	#### Projects 3.2
 	- 
+- [3.3 Functions](https://rust-book.cs.brown.edu/ch03-03-how-functions-work.html)
+	#### Summary 3.3
+	- 
+	#### Projects 3.3
+	- 
+- [3.4 Comments](https://rust-book.cs.brown.edu/ch03-04-comments.html)
+	#### Summary 3.4
+	- 
+	#### Projects 3.4
+	- 
+
 
 
 
