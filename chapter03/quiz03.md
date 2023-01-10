@@ -55,3 +55,16 @@ fn main() {
 
 }
 ```
+
+8. The largest number representable by the type i128 is:
+
+9. If x : u8 = 0, what will happen when computing x - 1?
+
+10. Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed. If the program does not pass, indicate the last line number involved in the compiler error.
+
+```
+fn main() {
+  let x: fsize = 2.0;
+  println!("{x}");
+}
+```

@@ -13,3 +13,15 @@
 6. This program does compile. The output of this program will be: 1
 
 7. This program does not compile. The last line number in the error is: 3
+
+8. ```2^127 - 1```
+    #### Context:
+    - In general, a signed number with n bits can represent numbers between -(2^(n - 1)) and 2^(n - 1) - 1.
+
+9. It depends on the compiler mode.
+    #### Context:
+    - This expression will panic in debug mode and return 255 in release mode.
+
+10. This program does not compile. The last line number in the error is: 
+    #### Context:
+    - The type fsize does not exist. Floats must be either f32 or f64.
