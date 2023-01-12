@@ -2,7 +2,7 @@
 - Useful code snippets collected from the Rust book. 
 - ```command```* = use on terminal
 
-## Code & Description
+## Code/Vocabulary & Description
 
 ```rustup update```*
 - Command to update rust version. 
@@ -66,4 +66,34 @@
     let c = 'z';
     let z: char = 'ℤ'; // with explicit type annotation
     let heart_eyed_cat = '😻';
+```
+
+### Compound Types 
+- ```Compound types``` can group multiple values into one type. Rust has two primitive compound types: ```tuples``` and ```arrays```.
+
+### Tuple Type
+- A ```tuple``` is a general way of grouping together a number of values with a variety of types into one compound type.
+
+```
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+```
+
+### Destructuring
+- Using ```let``` to take ```tup``` and turn it into 3 seperate variables. 
+```
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let (x, y, z) = tup;
+    println!("The value of y is: {y}");
+    //Output: The value of y is: 6.4
+```
+
+### Use by Index
+```
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let five_hundred = x.0;
+    //Output: 500
+    let six_point_four = x.1;
+    //Output: 6.4
+    let one = x.2;
+    //Output: 1
 ```
