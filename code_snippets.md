@@ -97,3 +97,28 @@
     let one = x.2;
     //Output: 1
 ```
+
+### Array Type
+- An ```Array``` is a variable that can store multiple values. Unlike a tuple, every element of an array must have the same type. Unlike arrays in some other languages, arrays in Rust have a fixed length.
+```
+fn main() {
+    let a = [1, 2, 3, 4, 5];
+}
+```
+- Here, ```i32``` is the type of each element. After the semicolon, the number ```5``` indicates the array contains five elements.
+```
+fn main() {
+    let a: [i32; 5] = [1, 2, 3, 4, 5];
+}
+```
+
+### Accessing Array Elements
+```
+fn main() {
+    let a = [1, 2, 3, 4, 5];
+
+    let first = a[0];
+    let second = a[1];
+}
+```
+- In this example, the variable named ```first``` will get the value ```1```, because that is the value at index [0] in the array. The variable named ```second``` will get the value 2 from index ```[1]``` in the array.
