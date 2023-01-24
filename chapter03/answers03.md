@@ -25,3 +25,11 @@
 10. This program does not compile. The last line number in the error is: 
     #### Context:
     - The type fsize does not exist. Floats must be either f32 or f64.
+
+11. This program does compile. The output of this program will be:1
+    #### Context:
+    - The statement x += 2 only affects the shadowed x inside the inner curly braces, not the outer x on line 2.
+
+12. This program does not compile.
+    #### Context:
+    - A variable cannot be assigned to a value of a different type than its original type.

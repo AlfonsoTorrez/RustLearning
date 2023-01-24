@@ -68,3 +68,24 @@ fn main() {
   println!("{x}");
 }
 ```
+
+11. Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed.
+```
+fn main() {
+  let mut x: u32 = 1;
+  {
+    let mut x = x;
+    x += 2;
+  }
+  println!("{x}");
+}
+```
+
+12. Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed.
+```
+fn main() {
+  let mut x: u32 = 1;
+  x = "Hello world";
+  println!("{x}");
+}
+```
